@@ -1,0 +1,69 @@
+@import "../../styles/colors";
+.Review {
+    max-width: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 2.5rem;
+    img {
+        display: block;
+        position: relative;
+        z-index: 10;
+        width: 170px;
+        height: 170px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    .Quote {
+        position: absolute;
+        color: #fff;
+        top: 41px;
+        left: 220px;
+        z-index: 10;
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: $labelColor;
+        border-radius: 50%;
+        font-size: 17px;
+        line-height: 38px;
+    }
+    .Bg {
+        position: absolute;
+        z-index: 5;
+        width: 170px;
+        height: 170px;
+        background: $labelColor;
+        right: 205px;
+        top: 37px;
+        border-radius: 50%;
+    }
+    h5 {
+        color: $titleColor;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+    h6 {
+        color: $labelColor;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+    }
+    .Left,
+    .Right {
+        color: $labelColor;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    button {
+        background-color: $labelColor !important;
+        box-shadow: none;
+        border: 0;
+        &:active,
+        &:focus {
+            border: none;
+            box-shadow: none;
+        }
+    }
+}

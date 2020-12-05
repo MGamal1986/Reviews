@@ -1,0 +1,15 @@
+// import open sans font [ 300 - 400 - 600 - 700 - 800 ] weights
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+// import colors file
+@import "./styles/colors";
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $bgColor;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
