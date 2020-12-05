@@ -1,4 +1,4 @@
-# Getting Started with ### `npm install`
+# Getting Started with  `npm install`
 
 ## Available Scripts
 
