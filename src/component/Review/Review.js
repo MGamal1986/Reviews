@@ -3,7 +3,7 @@ import Aux from "../../hoc/Auxillary";
 import Classes from "./Review.module.scss";
 import { FaQuoteRight, FaAngleRight, FaAngleLeft } from "react-icons/fa";
 function Review(props) {
-    const { id, image, name, job, text } = props.view;
+    const { image, name, job, text } = props.view;
     // const { click } = props.click;
     let classes = `card shadow rounded ${Classes.Review}`;
     return (
